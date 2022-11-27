@@ -113,7 +113,7 @@ header .btn-filled {
 .hero-section {
     padding-bottom: 172px;
     padding-top: 125px;
-    background-image: url(/img/hero-background.png);
+    background-image: url(../img/hero-background.png);
     background-repeat: no-repeat;
     background-position: right 14% bottom 56%;
 }
@@ -187,4 +187,8 @@ header .btn-filled {
 
 .work-process .part-work-right {
     display: flex;
+}
+
+.work-process .work-caption {
+
 }
