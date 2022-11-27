@@ -23,9 +23,8 @@ textarea {
 
 @font-face {
     font-family: "GraphikLGG";
-    src: url(/fonts/GraphikLCG-Regular.ttf);
-    src: url(/fonts/GraphikLCG-Regular.woff);
-    src: url(/fonts/GraphikLCG-Semibold.ttf);
+    src: url(../fonts/GraphikLCG-Regular.ttf);
+    src: url(../fonts/GraphikLCG-Semibold.ttf);
 }
 
 * {
