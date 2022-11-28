@@ -80,7 +80,7 @@ header .menu-item {
 }
 
 .btn-empty:hover {
-    filter: brightness(0.7);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .btn-filled {
@@ -202,12 +202,15 @@ header .btn-filled {
     margin-bottom: 250px;
 }
 
+.work-process .part-text {
+    max-width: 40%;
+}
+
 .work-process .work-caption {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     color: #000000;
-    max-width: 50%;
 }
 
 .work-process .work-text {
@@ -215,7 +218,6 @@ header .btn-filled {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
-    max-width: 50%;
 }
 
 .work-process .work-btn {
@@ -364,7 +366,7 @@ header .btn-filled {
 
 .translation {
     background: #DABC98;
-    padding-top: 87px;
+    padding: 110px 0;
 }
 
 .translation .container {
@@ -384,7 +386,199 @@ header .btn-filled {
     border-right: 1px solid #000000;
     margin-left: 44px;
     max-width: 45.6%;
-    padding-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 5px;
     margin-right: 72px;
+}
+
+.translation .stars {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 70px;
+}
+
+.integrate {
+    padding-top: 169px;
+    padding-bottom: 158px;
+}
+
+.integrate .integrate-caption {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+
+.integrate .integrate-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.integrate .sites-img {
+    text-align: center;
+}
+
+.integrate .integrate-button {
+    display: flex;
+    justify-content: center;
+}
+
+.integrate .integrate-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background: #FF6336;
+    border: none;
+    margin-top: 36px;
+    cursor: pointer;
+    padding: 3px 20px;
+}
+
+.integrate .integrate-btn:hover {
+    filter: brightness(0.9);
+}
+
+.localization {
+    background: #FF9C7D;
+    padding: 161px 0;
+}
+
+.localization .localization-caption {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.localization .localization-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 54px;
+}
+
+.localization .localization-btn {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    cursor: pointer;
+    padding: 3px 40px;
+}
+
+.localization .localization-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.localization .localization-button {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    padding-top: 92px;
+    padding-bottom: 48px;
+}
+
+footer .top-footer {
+    display: flex;
+}
+
+footer .footer-information {
+    max-width: 36%;
+}
+
+footer .footer-caption {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+footer .companie-specialized {
+    max-width: 80px;
+    margin-bottom: 29px;
+    margin-top: 30px;
+}
+
+footer .footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 63%;
+    margin-bottom: 13px;
+}
+
+footer .read-more {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+footer .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+}
+
+footer .footer-ception-menu {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+footer .footer-menu-item {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+footer .bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    margin-top: 95px;
+    border-top: 1px solid #000000;
+    ;
+}
+
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-note {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+footer .footer-reserved {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
 }
