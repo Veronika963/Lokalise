@@ -32,7 +32,7 @@ textarea {
 }
 
 .container {
-    max-width: 1236px;
+    max-width: 1287px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 27px 0;
+    padding: 25px 0;
     max-width: 1337px;
 }
 
@@ -160,7 +160,7 @@ header .btn-filled {
 
 .companies {
     background: #FF9C7D;
-    padding: 108px 0;
+    padding: 104px 0;
 }
 
 .companies .companies-caption {
@@ -180,14 +180,211 @@ header .btn-filled {
     align-items: center;
 }
 
+.work-process {
+    padding-top: 89px;
+    padding-bottom: 150px;
+}
+
 .work-process .part-work-left {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
 }
 
 .work-process .part-work-right {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-process .container .part-work-right:not(:last-child) {
+    margin-bottom: 250px;
 }
 
 .work-process .work-caption {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    max-width: 50%;
+}
 
+.work-process .work-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 50%;
+}
+
+.work-process .work-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.work-process .work-process-img {
+    max-width: 632px;
+    max-height: 632px;
+}
+
+.lokalise {
+    background: #FFF8E4;
+    padding: 121px 0;
+}
+
+
+.lokalise .caption {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 75px;
+}
+
+.lokalise .lokalise-items-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+
+.lokalise .lokalise-items-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lokalise .lokalise-item {
+    max-width: 357px;
+    text-align: center;
+}
+
+.lokalise .lokalise-caption {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.lokalise .lokalise-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.performance {
+    padding: 192px 0;
+}
+
+.performance .performance-caption {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 75px;
+}
+
+.performance .performance-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.performance .performance-item {
+    text-align: left;
+    max-width: 32%;
+}
+
+.performance .perfomance-item-caption {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 44px;
+}
+
+.perfomance-item:nth-child(2) .perfomance-item-caption {
+    margin-top: 79px;
+}
+
+.performance .perfomance-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 58px;
+}
+
+.performance .learn-more {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.performance .learn-more:hover {
+    text-decoration-line: underline;
+}
+
+.companie-revolut {
+    background: #C9E8F2;
+    padding-top: 55px;
+    padding-bottom: 99px;
+}
+
+.companie-revolut .container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.companie-revolut .revolut-text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.companie-revolut .revolut-note {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.translation {
+    background: #DABC98;
+    padding-top: 87px;
+}
+
+.translation .container {
+    display: flex;
+    align-items: center;
+}
+
+.translation .cake {
+    margin-top: 44px;
+}
+
+.translation .translation-caption {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    border-right: 1px solid #000000;
+    margin-left: 44px;
+    max-width: 45.6%;
+    padding-top: 60px;
+    padding-right: 5px;
+    margin-right: 72px;
 }
