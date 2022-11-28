@@ -67,6 +67,10 @@ header .menu-item {
     color: #000000;
 }
 
+header .menu-item:hover {
+    text-decoration: underline;
+}
+
 .btn-empty {
     border: 1px solid rgba(0, 0, 0, 0.5);
     font-style: normal;
@@ -211,6 +215,7 @@ header .btn-filled {
     font-size: 50px;
     line-height: 60px;
     color: #000000;
+    margin-bottom: 30px;
 }
 
 .work-process .work-text {
@@ -218,6 +223,7 @@ header .btn-filled {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
+    margin-bottom: 30px;
 }
 
 .work-process .work-btn {
@@ -227,6 +233,10 @@ header .btn-filled {
     color: #000000;
     border: none;
     cursor: pointer;
+}
+
+.work-process .work-btn:hover {
+    text-decoration: underline;
 }
 
 .work-process .work-process-img {
@@ -314,8 +324,12 @@ header .btn-filled {
     margin-top: 44px;
 }
 
-.perfomance-item:nth-child(2) .perfomance-item-caption {
+.performance-item:nth-child(2) .perfomance-item-caption {
     margin-top: 79px;
+}
+
+.performance-item:nth-child(3) .perfomance-item-caption {
+    margin-top: 62px;
 }
 
 .performance .perfomance-text {
@@ -498,7 +512,7 @@ footer .top-footer {
 }
 
 footer .footer-information {
-    max-width: 36%;
+    max-width: 37%;
 }
 
 footer .footer-caption {
@@ -531,6 +545,10 @@ footer .read-more {
     color: #000000;
 }
 
+footer .read-more:hover {
+    text-decoration: underline;
+}
+
 footer .footer-menu {
     display: flex;
     justify-content: space-between;
@@ -551,6 +569,10 @@ footer .footer-menu-item {
     line-height: 15px;
     color: #000000;
     margin-bottom: 15px;
+}
+
+footer .footer-menu-item:hover {
+    text-decoration: underline;
 }
 
 footer .bottom-footer {
