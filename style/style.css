@@ -21,6 +21,11 @@ textarea {
     background-color: transparent;
 }
 
+h1, h2, h3 {
+    font-size:100%;
+	font-weight:normal;
+}
+
 @font-face {
     font-family: "GraphikLGG";
     src: url(../fonts/GraphikLCG-Regular.ttf);
@@ -78,7 +83,7 @@ header .menu-item:hover {
     line-height: 45px;
     font-weight: 600;
     color: #000000;
-    padding: 0 35px;
+    padding: 0  35px;
     height: 41px;
     cursor: pointer;
 }
@@ -116,9 +121,15 @@ header .btn-filled {
 .hero-section {
     padding-bottom: 172px;
     padding-top: 125px;
-    background-image: url(../img/hero-background.png);
-    background-repeat: no-repeat;
-    background-position: right 14% bottom 56%;
+}
+
+.hero-section .container {
+    display: flex;
+}
+
+.hero-section .hero-img {
+    max-height: 529px;
+    margin-right: -19px;
 }
 
 .hero-section .cta-caption {
@@ -259,15 +270,12 @@ header .btn-filled {
     margin-bottom: 75px;
 }
 
-.lokalise .lokalise-items-top {
+.lokalise .lokalise-items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 57px;
     margin-bottom: 76px;
-}
-
-.lokalise .lokalise-items-bottom {
-    display: flex;
-    justify-content: space-between;
 }
 
 .lokalise .lokalise-item {
@@ -487,6 +495,7 @@ header .btn-filled {
     font-size: 17px;
     line-height: 60px;
     text-align: center;
+    border: none;
     color: #FFFFFF;
     background: #000000;
     cursor: pointer;
